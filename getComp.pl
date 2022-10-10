@@ -14,5 +14,7 @@ foreach(@a) {
 	$cmd2 = sprintf("zcat $file | grep -A1 _NAME | grep -v _NAME | grep [a-z] | sort | uniq > c%d.txt", $i);
 	printf("$cmd2\n");
 	system("$cmd2");
-	system("rm $file");
+	
+	#delete downloaded file
+	#system("rm $file");
 }
