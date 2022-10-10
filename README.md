@@ -1,2 +1,2 @@
 # pubChemCompoundNames
-Extract compound names from pubChem using perl and curl
+Extract compound and substance files from pubChem FTP side using perl and curl
